@@ -30,7 +30,7 @@ A clean and intuitive To-Do List application built using HTML, CSS, and JavaScri
 
 ## 📌 Author
 
-Developed by **Shubhankar**
+Developed by **Rohini**
 
 ## 📜 License
 
