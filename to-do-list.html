@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="to do list.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="theme-switch">
+    <label class="switch">
+      <input type="checkbox" onchange="toggleTheme(this)">
+      <span class="slider"></span>
+    </label>
+    <span id="theme-label">🌙 Dark</span>
+  </div>
+
+  <div class="todo-container">
+    <h2>📝 To-Do List</h2>
+    <div class="input-group">
+      <input type="text" id="task-input" placeholder="What needs to be done?" />
+      <button class="add-btn" onclick="addTask()">Add</button>
+    </div>
+    <ul id="task-list"></ul>
+  </div>
+
+  <script src="to do list.js"></script>
+</body>
+</html>
